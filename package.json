@@ -1,13 +1,39 @@
 {
-  "name": "proyek-backend-vercel",
-  "version": "1.0.0",
-  "description": "Backend API lengkap untuk aplikasi AI SATSET",
+  "name": "nama-proyek-react-anda",
+  "version": "0.1.0",
   "main": "api/index.js",
-  "scripts": {
-    "start": "node api/index.js"
-  },
+  "private": true,
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "react": "...",
+    "react-dom": "...",
+    "react-scripts": "..."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "backend": "node api/index.js",
+    "build": "react-scripts build",
+    "vercel-build": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
