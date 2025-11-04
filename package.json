@@ -6,9 +6,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "react": "...",
-    "react-dom": "...",
-    "react-scripts": "..."
+    "react": "file:...",
+    "react-dom": "file:...",
+    "react-scripts": "file:..."
   },
   "scripts": {
     "start": "react-scripts start",
